@@ -26,6 +26,13 @@ const flights = {
     from: "London (LHR)",
     to: "Chicago (ORD)",
     date: "2026-01-28T11:15"
+  },
+  "TS567": {    // <- Air Transat ajouté ici
+    airline: "Air Transat",
+    aircraft: "Airbus A321",
+    from: "Montreal (YUL)",
+    to: "Cancun (CUN)",
+    date: "2026-02-20T18:00"
   }
 };
 
@@ -60,4 +67,5 @@ function trackFlight() {
     `;
   }, 900);
 }
+
 
